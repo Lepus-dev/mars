@@ -1,0 +1,152 @@
+.reserches{
+    background-image: url(../images/фон\ 2.jpg);
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: cover;
+   
+
+}
+
+.reserches__inner{
+    padding-top: 150px;
+
+}
+
+.reserches__item{
+
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(255, 0, 0);
+   
+
+ 
+
+}
+
+.reserches__item:last-child{
+
+
+    border-bottom: none;
+   
+
+ 
+
+}
+
+
+
+.reserches__img{
+
+   
+    width: 40%;
+    transition-duration: 0.3s;
+
+   
+
+    
+ 
+
+
+   
+
+}
+
+.reserches__img img{
+    border: 1px solid rgb(150, 0, 50) ;
+    transition-duration: 0.3s;  
+      width: 100%;
+
+   
+
+    
+ 
+
+}
+.reserches__img:hover img{
+    transform: translateY(0) scale(1.01);
+
+
+}
+
+
+.reserches__text{
+    width: 40%;
+    border-left: 3px solid rgb(150, 0, 50);
+     min-height: 100%;
+     display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+
+     
+    
+
+}
+
+
+
+.reserches__title{
+    text-align: center;
+    text-transform: uppercase;
+
+  padding-bottom: 40px;
+
+}
+
+.reserches__title a{
+      
+    font-size: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: monospace;
+}
+
+.reserches__title a:hover{
+    color: rgb(150, 0, 50);
+
+}
+
+@media(max-width: 600px){
+    .reserches__title a{
+       font-size: 20px;
+    }
+}   
+
+@media(max-width: 500px){
+    .reserches__title a{
+        font-size: 14px;
+     }
+
+     .reserches__img{
+
+   
+        width: 60%;
+
+    
+       
+    
+        
+     
+    
+    
+       
+    
+    }
+    .reserches__text{
+        width: 40%;
+         border-left: none;
+         min-height: 100%;
+         display: flex;
+        flex-direction: column;
+         justify-content: space-around;
+    
+         
+        
+    
+    }
+
+
+}
