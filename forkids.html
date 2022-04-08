@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Марс для дітей</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header-second">
+    <div class="container">
+      <div class="header__inner-second">
+
+        <nav class="menu__second">
+          <button class="menu-btn">
+            <span></span>
+          </button>
+          <ul class="menu__list-second">
+            <li class="menu__item-second"><a href="index.html" class="menu__link-second">Головна сторінка</a></li>
+            <li class="menu__item-second"><a href="facts.html" class="menu__link-second">Факти про марс</a></li>
+            <li class="menu__item-second"><a href="reserches.html" class="menu__link-second">Алея дослдіників</a></li>
+            <li class="menu__item-second"><a href="forkids.html" class="menu__link-second menu__link-active">Марс для
+                дітей</a></li>
+            <li class="menu__item-second"><a href="colonization.html" class="menu__link-second">План колонізації</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="forkids">
+    <section class="video">
+      <div class="container">
+        <div class="video__inner">
+          <h2 class="video__title">Для наших найменших марсіан</h2>
+          <p class="video__text">Космонавтам потрібно бути уважними та мати хорошу пам'ять, щоб запам'ятати дорогу додому</p>
+          <p class="video__text">Уважно подивися наступний відеоролик і запам'ятай, як виглядає червона планета</p>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/WYit_IB-EXs"
+           title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <p class="video__text">А тепер спутися вниз і намалюй те, що запам'ятав з відео</p>
+        </div>
+      </div>
+    </section>
+    <section class="draw">
+      <h2 class="draw__title">Кокурс на найкращий малюнок</h2>
+      <p class="video__text">Переможця заберуть у міжгалактичне художнє ПТУ</p>
+   
+
+      <canvas id="jsCanvas" class="canvas"></canvas>
+      <div class="controls">
+          <div class="controls__range">
+              <input type="range" id="jsRange" min="0.1" max="5.0" value="2.5" step="0.1">
+          </div>
+          <div class="controls__btns">
+              <button class="draw__button"id="jsMode">Заливка</button>
+              <button class="draw__button"id="jsSave">Сохранить</button>
+          </div>
+          <div class="controls__colors" id="jsColors">
+              <div class="controls__color jsColor" style="background-color:#2c2c2c"></div>
+              <div class="controls__color jsColor" style="background-color:white"></div>
+              <div class="controls__color jsColor" style="background-color:red"></div>
+              <div class="controls__color jsColor" style="background-color:rgb(235, 40, 202)"></div>
+              <div class="controls__color jsColor" style="background-color:rgb(63, 228, 77)"></div>
+              <div class="controls__color jsColor" style="background-color:orange"></div>
+              <div class="controls__color jsColor" style="background-color:yellow"></div>
+              <div class="controls__color jsColor" style="background-color:green"></div>
+              <div class="controls__color jsColor" style="background-color:rgb(0, 145, 255)"></div>
+              <div class="controls__color jsColor" style="background-color:blue"></div>
+              <div class="controls__color jsColor" style="background-color:rgb(95, 26, 234)"></div>
+          </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="foooter">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer-leter">
+          <p>
+            Бажаю усім космонавтам та програмістам удачі
+          </p>
+          <p>Проект був підготовлений учнем 11 класу
+            Нововолинського ліцею №8</p>
+
+        </div>
+        <ul class="footer__menu">
+          <li class="footer__item"><a href="index.html" class="foooter__link ">Головна сторінка</a>
+          </li>
+          <li class="footer__item"><a href="http://novgimnasium.edukit.volyn.ua/" class="foooter__link">Сайт нашої
+              школи</a></li>
+          <li class="footer__item"><a href="http://bug.org.ua/news/novovolynsk/" class="foooter__link">Новини нашого
+              міста</a></li>
+        </ul>
+        <ul class="footer__links">
+          <li class="footer__item-links"><a href="https://www.spacex.com/" class="foooter__link">spacex.com
+
+            </a></li>
+          <li class="footer__item-links"><a href="https://www.blueorigin.com/" class="foooter__link">blueorigin.com</a></li>
+          <li class="footer__item-links"><a href="https://virgingalactic.com/  "
+              class="foooter__link">virgingalactic.com</a></li>
+
+        </ul>
+      </div>
+    </div>
+
+
+
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
